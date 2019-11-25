@@ -1,0 +1,29 @@
+//OP_CMD (NAME_UPPER, ID, NAME_LOWER)
+
+OP_CMD (SUM, (int)'+', "+")
+
+OP_CMD (SUB, (int)'-', "-")
+
+OP_CMD (MUL, (int)'*', "*")
+
+OP_CMD (DIV, (int)'/', "/")
+
+OP_CMD (SIN, 1, "sin")
+
+OP_CMD (COS, 2, "cos")
+
+OP_CMD (TG, 3, "tg")
+
+OP_CMD (CTG, 4, "ctg")
+
+OP_CMD (SH, 5, "sh")
+
+OP_CMD (CH, 6, "ch")
+
+OP_CMD (TH, 7, "th")
+
+OP_CMD (CTH, 8, "cth")
+
+OP_CMD (POW, 9, "^")
+
+OP_CMD (LN, 10, "ln")
