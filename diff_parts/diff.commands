@@ -1,4 +1,6 @@
 //OP_CMD (NAME_UPPER, ID, NAME_LOWER)
+//POW1 - Производная степени по стандартной формуле (показатель содержит переменную)
+//POW2 - Производная по упрощенной формуле (показатель не содержит переменную)
 
 OP_CMD (SUM, (int)'+', "+")
 
@@ -24,6 +26,24 @@ OP_CMD (TH, 7, "th")
 
 OP_CMD (CTH, 8, "cth")
 
-OP_CMD (POW, 9, "^")
+OP_CMD (POW1, 9, "^")
 
-OP_CMD (LN, 10, "ln")
+OP_CMD (POW2, 10, "^")
+
+OP_CMD (LN, 11, "ln")
+
+OP_CMD (ARCSIN, 12, "arcsin")
+
+OP_CMD (ARCCOS, 13, "arccos")
+
+OP_CMD (ARCTG, 14, "arctg")
+
+OP_CMD (ARCCTG, 15, "arcctg")
+
+OP_CMD (ARCSH, 16, "arcsh")
+
+OP_CMD (ARCCH, 17, "arcch")
+
+OP_CMD (ARCTH, 18, "arcth")
+
+OP_CMD (ARCCTH, 19, "arccth")
